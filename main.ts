@@ -1,7 +1,4 @@
-basic.forever(function () {
-	
-})
-loops.everyInterval(100, function () {
+for (let index = 0; index < 4; index++) {
     basic.showLeds(`
         . . . . .
         . # # # .
@@ -16,4 +13,7 @@ loops.everyInterval(100, function () {
         # . . . #
         # # # # #
         `)
+}
+basic.forever(function () {
+	
 })
